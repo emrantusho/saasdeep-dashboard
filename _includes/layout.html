@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>{{ title }}</title> <!-- The title will come from the CMS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- The 3D background script will run on every page -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <!-- This is where your embedded software will appear -->
+    <div class="iframe-container">
+        <iframe src="{{ iframe_url }}" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
