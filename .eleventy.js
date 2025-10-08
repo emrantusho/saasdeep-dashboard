@@ -4,7 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("models");
-  eleventyConfig.addPassthroughCopy("assets"); // <-- ADD THIS LINE
+  eleventyConfig.addPassthroughCopy("assets");
 
   // Define a 'pages' collection
   eleventyConfig.addCollection("pages", function(collectionApi) {
